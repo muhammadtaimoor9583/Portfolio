@@ -32,7 +32,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/Portfolio" className="d-flex">
           <span
             className="purple"
             style={{ fontWeight: 700, fontSize: "26px", letterSpacing: "0.5px" }}
