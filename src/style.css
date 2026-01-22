@@ -315,10 +315,42 @@ button:focus {
   padding-top: 9em !important;
 }
 
+.myAvtar .avatar-wrapper {
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0.55));
+  padding: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+}
+
+.myAvtar .avatar-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 14px; /* align with padding so overlay sits on image circle */
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+  pointer-events: none;
+}
+
+.myAvtar .avatar-img {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+  }
+
+  .myAvtar .avatar-img {
+    width: 200px;
+    height: 200px;
   }
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/MyImage.jpeg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,43 +13,50 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Software Engineer focused on AI, deep learning, and building
+              scalable products that solve real-world problems. I enjoy
+              shaping ML systems end-to-end—from data curation and prompt
+              engineering to deploying reliable user experiences.
               <br />
               <br />
-              I’m proficient in
+              Currently an LLM Intern at Skylabs.ai, where I design autonomous
+              AI agents, craft data pipelines, and optimize prompts to reduce
+              manual work and strengthen model reasoning.
+              <br />
+              <br />
+              I co-created the GIKI Bus Ticket Reservation System, replacing a
+              manual process for 2,300+ students and staff with a simple
+              reservation experience and real-time admin controls.
+              <br />
+              <br />
+              I like building with
               <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
+                <b className="purple"> JavaScript, Python, Golang, React.js</b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
+              <b className="purple">, Node.js,</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
+                <b className="purple"> PostgreSQL</b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              , and I lean on frameworks and libraries like
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple"> Express, Tailwind, PyTorch,</b>
               </i>
+              and
+              <i>
+                <b className="purple"> TensorFlow </b>
+              </i>
+              to ship fast.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <div className="avatar-wrapper">
+                <img
+                  src={myImg}
+                  className="img-fluid avatar-img"
+                  alt="avatar"
+                />
+              </div>
             </Tilt>
           </Col>
         </Row>

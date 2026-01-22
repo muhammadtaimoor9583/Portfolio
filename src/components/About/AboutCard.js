@@ -8,37 +8,37 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I’m <span className="purple">Muhammad Taimoor</span>{" "}
+            from <span className="purple">Pakistan</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Software Engineer specializing in AI, deep learning, and full-stack
+            development. I love turning real-world problems into scalable,
+            intelligent products.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I’m currently an <span className="purple">LLM Intern</span> at{" "}
+            <span className="purple">Skylabs.ai</span>, where I build autonomous
+            agents, refine data pipelines, and engineer prompts to improve model
+            reasoning.
+            <br />
+            <br />
+            I co-created the <span className="purple">GIKI Bus Ticket Reservation System</span>,
+            replacing a manual process for 2,300+ students and staff with a
+            seamless digital experience and real-time admin controls.
+            <br />
+            <br />
+            I’m pursuing a <span className="purple">Bachelors in Computer Science</span> at the
+            <span className="purple">
+              {" "}
+              Ghulam Ishaq Khan Institute (GIKI)
+            </span>
+            , CGPA 3.54, with coursework in DSA, OOP, DBMS, DevOps, AI, and OS.
           </p>
-
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Muhammad Taimoor</footer>
         </blockquote>
       </Card.Body>
     </Card>
