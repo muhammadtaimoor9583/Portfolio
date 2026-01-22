@@ -1,14 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f9e0f4f7.css",
-    "main.js": "/Portfolio/static/js/main.1c0b3028.js",
+    "main.js": "/Portfolio/static/js/main.dd2c46a3.js",
     "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
-    "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/Muhammad Taimoor cv.pdf": "/Portfolio/static/media/Muhammad Taimoor cv.41e2e77e1df2b2405f76.pdf",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
     "static/media/MyImage.jpeg": "/Portfolio/static/media/MyImage.95f8134c0464b6caec06.jpeg",
     "static/media/go.svg": "/Portfolio/static/media/go.92167445712559696ed2cbe525706710.svg",
     "static/media/SQL.svg": "/Portfolio/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
@@ -34,11 +31,11 @@
     "static/media/Apple MacOSX.svg": "/Portfolio/static/media/Apple MacOSX.619ec76bf469e3d85a245a7d132edec9.svg",
     "static/media/Haskell.svg": "/Portfolio/static/media/Haskell.e4b7b5b34e24fee7cd7a2a1f75b9550b.svg",
     "main.f9e0f4f7.css.map": "/Portfolio/static/css/main.f9e0f4f7.css.map",
-    "main.1c0b3028.js.map": "/Portfolio/static/js/main.1c0b3028.js.map",
+    "main.dd2c46a3.js.map": "/Portfolio/static/js/main.dd2c46a3.js.map",
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9e0f4f7.css",
-    "static/js/main.1c0b3028.js"
+    "static/js/main.dd2c46a3.js"
   ]
 }
